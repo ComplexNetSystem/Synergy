@@ -35,6 +35,9 @@ def ch_net_tri(df_data, top_per, ch_method):
     return triadic_cliques_df
 
 
+# Finding an appropriate threshold (top_per) in ch_net_tri function. Stavroula will send me the codes...
+
+
 # Calculate MI Correlation matrix
 def cal_mi(df_data):
     num_var = df_data.shape[1]
